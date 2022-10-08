@@ -247,3 +247,21 @@ footer b {
   text-align: center;
   margin-top: 32px;
 }
+
+@media (min-width: 930px) {
+  .material-symbols-sharp {
+    display: none;
+  }
+}
+
+@media (max-width: 929px) {
+  li {
+    display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  #wrap-vantagens {
+    grid-template-columns: repeat(2, minmax(100px, 300px));
+  }
+}
