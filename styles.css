@@ -61,7 +61,7 @@ header a {
   color: var(--branco);
   text-decoration: none;
   font-weight: bold;
-  border-bottom: var(--laranja); /* evita que ela comece branca */
+  border-bottom: 3px solid transparent;
   transition: border-bottom 300ms;
 }
 
